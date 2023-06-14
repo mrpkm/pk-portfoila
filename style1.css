@@ -1,0 +1,51 @@
+.headling {
+  font-size: 3rem;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.big-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* border: 1px solid blanchedalmond; */
+  padding: 20px;
+  margin-top: 3rem;
+}
+.outer {
+  height: 2rem;
+  width: 10rem;
+  background-color: #ebefef;
+  border-radius: 25px;
+}
+.inner {
+  height: 2rem;
+  width: 70%;
+  /* background-color: red; */
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+h4 {
+  font-size: 1.5rem;
+}
+.red {
+  width: 95%;
+  background-color: #ff0000;
+}
+.orange {
+  width: 70%;
+  background-color: orange;
+}
+.green {
+  width: 90%;
+  background-color: green;
+}
+.yellow {
+  width: 80%;
+  background-color: yellow;
+}
